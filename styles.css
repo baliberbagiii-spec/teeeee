@@ -62,6 +62,7 @@ footer {
   text-align: center;
   padding: 1rem;
   position: fixed;
+  bottom: 0;
 }
 }
 .whatsapp-float {
@@ -120,6 +121,7 @@ footer {
   color: #007b5e;
   margin-bottom: 15px;
 }
+
 
 
 
