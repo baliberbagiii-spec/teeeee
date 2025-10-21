@@ -15,12 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const footer = `<p>&copy; 2025 Wijaya Tour Bali | All Rights Reserved</p>`;
   document.getElementById("main-footer").innerHTML = footer;
 
-  const wa = document.createElement("a");
-  wa.href = "https://wa.me/62895365282575";
-  wa.className = "whatsapp-float";
-  wa.innerHTML = "💬";
-  wa.target = "_blank";
-  document.body.appendChild(wa);
+  
 
   startSlider();
   setupTranslate();
@@ -127,3 +122,4 @@ function applyLanguage(lang) {
     if (text) el.textContent = text;
   });
 }
+
