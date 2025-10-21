@@ -56,8 +56,12 @@ nav a:hover {
   padding: 2rem;
 }
 footer {
+  background-color: #264733;
+  color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 20px 0;
+  margin-top: 40px;
+}
 }
 .whatsapp-float {
   position: fixed;
@@ -115,4 +119,5 @@ footer {
   color: #007b5e;
   margin-bottom: 15px;
 }
+
 
