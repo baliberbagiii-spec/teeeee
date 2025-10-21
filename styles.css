@@ -7,7 +7,7 @@ body {
   flex-direction: column;
    min-height: 100vh; 
 }
-header, footer {
+header {
   background: rgba(255,255,255,0.8);
   backdrop-filter: blur(10px);
   padding: 1rem 2rem;
@@ -58,9 +58,12 @@ nav a:hover {
   text-align: center;
   padding: 2rem;
 }
-footer {
+.footer {
   text-align: center;
   padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 }
 .whatsapp-float {
@@ -119,6 +122,7 @@ footer {
   color: #007b5e;
   margin-bottom: 15px;
 }
+
 
 
 
